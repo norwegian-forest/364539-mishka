@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Евгений Войнило](https://up.htmlacademy.ru/adaptive/12/user/364539).
-* Наставник: `Неизвестно`.
+* Наставник: [Анастасия Норцова](https://htmlacademy.ru/profile/id143546).
 
 ---
 
