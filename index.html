@@ -1,12 +1,117 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>HTML Academy: Мишка</title>
-  </head>
-  <body>
+</head>
+<body>
+    <header class="page-header">
+        <a class="page-header__logo logo" href="#">
+            <img class="logo__image" src="http://placehold.it/90x35" width="90" height="35" alt="Мишка">
+        </a>
+        <nav class="main-nav">
+            <button class="main-nav__toggle" type="button">Открыть меню</button>
+            <div class="main-nav__wrapper">
+                <ul class="main-nav__list site-list">
+                    <li class="site-list__item">
+                        <a href="#">Каталог товаров</a>
+                    </li>
+                    <li class="site-list__item">
+                        <a href="#">Вязание на заказ</a>
+                    </li>
+                    <li class="site-list__item">
+                        <a href="#">Поиск по сайту</a>
+                    </li>
+                    <li class="site-list__item">
+                        <a href="#">Корзина: пока пуста</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="page-main">
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
+        <section class="products">
+            <h1 class="products__main-title">Милые штучки ручной работы для дома</h1>
+            <div class="products__type__wrapper">
+                <a href="#" class="products__type">Предметы интерьера</a>
+                <a href="#" class="products__type">Детские игрушки</a>
+            </div>
+        </section>
 
-  </body>
+        <section class="week_goods">
+            <h2 class="week_goods__item-heading">Вязаные корзиночки</h2>
+            <h3 class="week_goods__marker">Товар недели</h3>
+            <p class="week_goods__description">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.</p>
+            <div class="characteristics-block">
+                <span class="characteristics-block__parameter">Цвет:</span>
+                <span class="characteristics-block__value">"Тиффани"/серый</span>
+                <span class="characteristics-block__parameter">Диаметр:</span>
+                <span class="characteristics-block__value">25 см</span>
+                <span class="characteristics-block__parameter">Высота:</span>
+                <span class="characteristics-block__value">15 см</span>
+            </div>
+            <img class="week_goods__item-image" src="http://placehold.it/260x315" width="260" height="315" alt="Вязаные корзиночки">
+            <p class="week_goods__price">990 руб.</p>
+            <button class="week_goods__offer" type="button">Заказать</button>
+            <div class="week_goods offer-window">
+                <h2 class="offer-window__heading">Добавить в корзину</h2>
+                <p class="offer-window__size">Выберите размер</p>
+                <button class="offer-window__size-button" type="button">S</button>
+                <button class="offer-window__size-button" type="button">M</button>
+                <button class="offer-window__size-button" type="button">L</button>
+            </div>
+        </section>
+
+        <section class="about-us">
+            <h2 class="about-us__heading">Коротко о нас:</h2>
+            <ul class="about-us__list features-list">
+                <li class="features-list__item">Экологически чистые материалы</li>
+                <li class="features-list__item">Скандинавский стиль по российской цене</li>
+                <li class="features-list__item">Увеличивает лайки на фотографиях</li>
+                <li class="features-list__item">Связано вручную с любовью и умилением</li>
+                <li class="features-list__item">Поддержка отечественного производителя</li>
+                <li class="features-list__item">Поставляется в подарочной упаковке</li>
+            </ul>
+        </section>
+
+        <section class="feedback">
+            <h2 class="feedback__heading">Отзывы:</h2>
+            <p class="feedback__item">Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше
+                лайков!</p>
+            <div class="feedback__author-block author-block">
+                <p class="author-block__name">Анастасия Красильникова</p>
+                <p class="author-block__nickname">@misssssiskras</p>
+            </div>
+            <button class="feedback__switch-previous" type="button"></button>
+            <button class="feedback__switch-next" type="button"></button>
+            <a class="feedback__write" href="#">Написать</a>
+
+        </section>
+
+        <section class="contacts">
+            <h2 class="contacts__heading">Контакты</h2>
+            <div class="contacts__wrapper">
+                <span class="contacts__contact-type">e-mail:</span>
+                <span class="contacts__contact-info">info@mimimishkashop.ru</span>
+            </div>
+            <img class="contacts__map" src="http://placehold.it/320x460" width="320" height="460" alt="Карта">
+            <a class="contacts__write-us" href="#">Напишите нам</a>
+        </section>
+    </main>
+
+    <footer class="page-footer">
+        <div class="page-footer__social">
+            <a class="page-footer__social-btn inst" href="#">Instagram</a>
+            <a class="page-footer__social-btn fb" href="#">Facebook</a>
+            <a class="page-footer__social-btn tw" href="#">Twitter</a>
+        </div>
+        <div class="page-footer__developer__wrapper">
+            <h2 class="page-footer__developer__heading">Разработано</h2>
+            <a class="page-footer__developer__link" href="#">HTML Academy</a>
+        </div>
+    </footer>
+</body>
+
 </html>
