@@ -4,12 +4,14 @@
 <head>
     <meta charset="utf-8">
     <title>HTML Academy: Мишка</title>
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
+  <div class="page-container">
     <header class="page-header">
         <a class="page-header__logo logo" href="index.html">
-            <img class="logo__image" src="http://placehold.it/90x35" width="90" height="35" alt="Мишка">
+            <img class="logo__image" src="img/logo-mobile.svg" width="90" height="35" alt="Мишка">
         </a>
         <nav class="main-nav">
             <button class="main-nav__toggle" type="button">Открыть меню</button>
@@ -33,7 +35,9 @@
     </header>
     <main class="page-main">
         <section class="order">
-            <h1 class="page-main__heading">Вязание на заказ</h1>
+          <div class="order__heading__wrapper">
+            <h1 class="order__heading">Вязание на заказ</h1>
+          </div>
             <div class="order__order-intro__wrapper">
                 <p class="order__order-intro">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали</p>
             </div>
@@ -86,6 +90,7 @@
             <a class="page-footer__developer__link" href="#">HTML Academy</a>
         </div>
     </footer>
+  </div>
 </body>
 
 </html>
